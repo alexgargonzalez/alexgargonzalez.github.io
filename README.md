@@ -1,61 +1,37 @@
-# alexgargonzalez.github.io
+# Resumen del Sitio Web - Educadora Infantil
 
-📚 Educadora Infantil
+## 🏠 Página Principal
+- **Título principal**: "Educadora Infantil"
+- **Botón de llamada a acción**: "Contáctame"
 
-Bienvenido/a a Educadora Infantil, una plataforma dedicada a ofrecer servicios de educación, estimulación temprana y orientación para familias con niños pequeños.
+## 🧑‍🏫 Sobre Mí
+*(Sección pendiente de contenido)*  
+*(Enlace en el menú de navegación)*
 
+## 💼 Servicios
 
+### Educación y Estimulación Temprana
+- Actividades para desarrollo cognitivo, motor y social
+- Apoyo en aprendizaje del lenguaje y habilidades básicas
 
-🌟 Descripción
+### Cuidado y Atención Infantil
+- Supervisión de necesidades básicas (alimentación, higiene, descanso)
+- Creación de ambiente seguro y estimulante
 
-Este proyecto tiene como objetivo brindar apoyo en el desarrollo infantil mediante actividades educativas, cuidado infantil y asesoramiento para familias.
+### Orientación a Familias
+- Asesoramiento sobre crianza y disciplina positiva
+- Estrategias para mejorar comunicación con niños
 
-🚀 Tecnologías Utilizadas
+## 📞 Contacto
 
-HTML5 📄
+### Formulario de Contacto
+- Campo para Nombre
+- Campo para Email
 
-CSS3 🎨
+### Redes Sociales
+*(Sección pendiente de desarrollo)*
 
-JavaScript (opcional, para futuras mejoras) ⚡
-
-📌 Características
-
-✅ Diseño intuitivo y amigable.
-
-✅ Secciones bien definidas: Sobre mí, Servicios, Contacto.
-
-✅ Información clara sobre los servicios ofrecidos.
-
-✅ Formulario de contacto para facilitar la comunicación.
-
-📷 Capturas de Pantalla
-
-Añade aquí imágenes de tu sitio web en funcionamiento.
-
-
-
-📁 Estructura del Proyecto
-
-📂 educadora-infantil/
-├── 📄 index.html    # Página principal
-├── 🎨 styles.css    # Archivo de estilos
-├── 📂 imagenes/     # Carpeta para imágenes y logos
-├── 📂 scripts/      # (Opcional) Para futuros archivos JavaScript
-└── 📄 README.md     # Documentación del proyecto
-
-🛠️ Instalación y Uso
-
-1️⃣ Clonar el repositorio
-
-git clone https://github.com/tu-usuario/educadora-infantil.git
-
-2️⃣ Abrir el proyecto
-
-Abre el archivo index.html en tu navegador.
-
-📬 Contacto
-
-Si deseas más información o contratar algún servicio, no dudes en contactarme:
-
-📧 Correo: tuemail@example.com📱 Teléfono: +34 123 456 789🌐 Tu página web o redes sociales
-Orientación a familias
+## 🖥️ Elementos Técnicos
+- **Logo**: "logosinfondo.png"
+- **Diseño**: Responsivo (adaptable a dispositivos)
+- **Estilos**: Archivo CSS externo (styles.css)
