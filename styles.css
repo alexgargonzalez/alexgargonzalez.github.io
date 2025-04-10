@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+.educator-main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.educator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 15vh;
+    background-color: #f963af;
+    width: 100%;
+}
+
+.educator-header img {
+    width: 180px;
+    height: auto;
+}
+
+.educator-header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.educator-header nav ul li {
+    list-style: none;
+}
+
+.educator-header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.educator-header nav ul li a:hover {
+    color: #ffd7eb;
+}
+
+/* Main Hero Section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/imagenes/guarderia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    color: #ffffff;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main p {
+    color: #ffffff;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+main a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 25px;
+    background-color: #f963af;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+main a:hover {
+    background-color: #ffffff;
+    color: #f963af;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(249, 99, 175, 0.3);
+}
+
+/* Services Section */
+.cartas-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.cartas-section h1 {
+    margin-bottom: 40px;
+    color: #f963af;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    height: 100%;
+    min-height: 280px;
+    background-color: #ffa0cd;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(255, 152, 198, 0.5);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+section .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 20px 40px rgba(255, 152, 198, 0.7);
+}
+
+section .card .text {
+    margin-bottom: 15px;
+}
+
+section .card .text h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+section .card ul {
+    text-align: left;
+    padding: 0 10px;
+}
+
+section .card ul li {
+    list-style: none;
+    margin: 15px 0;
+    position: relative;
+    padding-left: 20px;
+    color: #333;
+}
+
+section .card ul li:before {
+    content: "•";
+    color: #ffffff;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffa0cd;
+    width: 100%;
+}
+
+.contact .text-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.contact .text-me h2 {
+    color: #ffffff;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.contact .text-me .text-areas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    gap: 15px;
+}
+
+.contact .text-me .text-areas label {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.contact .text-me .text-areas input {
+    height: 45px;
+    border-radius: 25px;
+    padding: 0 20px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+.contact .text-me .text-areas input:focus {
+    outline: 2px solid #f963af;
+}
+
+.contact .text-me .text-areas input#text {
+    height: 100px;
+    padding-top: 15px;
+}
+
+.contact .text-me .text-areas a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 25px;
+    background-color: #f963af;
+    border-radius: 25px;
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+    align-self: flex-start;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.contact .text-me .text-areas a:hover {
+    background-color: #ffffff;
+    color: #f963af;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(249, 99, 175, 0.3);
+}
+
+.contact .social-media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 50%;
+    background-color: #f963af;
+    place-items: center;
+    padding: 20px;
+}
+
+.contact .social-media img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.contact .social-media a:hover img {
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer-educator {
+    background-color: #f963af;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.foot1, .foot2, .foot3 {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-contacto {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffd7eb;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.footer-social a {
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a:hover {
+    transform: translateY(-3px);
+}
+
+.copyright {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .educator-header {
+        padding: 0 20px;
+    }
+    
+    section .card {
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .educator-header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .educator-header img {
+        margin-bottom: 15px;
+    }
+    
+    main {
+        height: 70vh;
+    }
+    
+    .contact {
+        flex-direction: column;
+    }
+    
+    .contact .text-me, 
+    .contact .social-media {
+        width: 100%;
+    }
+    
+    .contact .social-media {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+    }
+    
+    .footer-educator {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .foot1, .foot2, .foot3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .educator-header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    main {
+        height: 60vh;
+    }
+    
+    section {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact .social-media {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .contact .social-media img {
+        width: 70px;
+    }
+    
+    .contact .text-me .text-areas a {
+        align-self: center;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .footer-social {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .educator-header img {
+        width: 150px;
+    }
+    
+    main h1 {
+        font-size: 1.8rem;
+    }
+    
+    .contact .social-media {
+        grid-template-columns: 1fr;
+    }
+}
