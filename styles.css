@@ -17,7 +17,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+
 .educator-header {
     display: flex;
     justify-content: space-between;
@@ -54,13 +54,12 @@ body {
     color: #ffd7eb;
 }
 
-/* Main Hero Section */
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(/imagenes/guarderia.png);
+    background-image: url(/guarderia.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -101,7 +100,6 @@ main a:hover {
     box-shadow: 0 5px 15px rgba(249, 99, 175, 0.3);
 }
 
-/* Services Section */
 .cartas-section {
     display: flex;
     justify-content: center;
@@ -174,8 +172,6 @@ section .card ul li:before {
     left: 0;
     top: -5px;
 }
-
-/* Contact Section */
 .contact {
     display: flex;
     flex-direction: row;
@@ -270,7 +266,6 @@ section .card ul li:before {
     transform: scale(1.1);
 }
 
-/* Footer */
 .footer-educator {
     background-color: #f963af;
     color: white;
